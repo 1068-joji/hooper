@@ -1,0 +1,21 @@
+class pylab:
+'Program for mentors and learners'
+
+def addStacks(self,name, interest,experience):
+self.name=name
+self.interest=interest
+self.experience=experience
+
+def setMentorOrLearner(self,prof):
+if(self.experience>=10):
+self.prof='M'
+else:
+self.prof='L'
+
+def setAvailableTime(self,time):
+if(self.prof=='M'):
+self time=10
+else:
+self time=0
+
+def getMentor(self,addStacks,self.time):
